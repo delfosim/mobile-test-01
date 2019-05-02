@@ -4,28 +4,27 @@
 ![DELFOSIM Logo](images/delfos_Intelligent_maintenance.png?raw=true "DELFOSIM Logo")
 
 ## Sobre o desafio
-Não será passado prazo para entrega, verifique os pré-requisitos, nos dê seu prazo e nos informe o que poderá ser entregue no prazo, mas fique atento pois vamos avaliar mais rigorosamente seu código quanto mais demorar para entregar a partir da data em que foi feito o fork desse repositório. A ideia é simples, você terá que desenvolver as telas seguintes (com dados falsos mesmo) seguindo alguns pré requisitos:
+Não será passado prazo para entrega, verifique os pré-requisitos, nos dê seu prazo e nos informe o que poderá ser entregue no prazo, mas fique atento pois vamos avaliar mais rigorosamente seu código quanto mais demorar para entregar a partir da data em que foi feito o fork desse repositório. A ideia é simples, você terá que desenvolver as telas seguintes (com dados falsos mesmo) seguindo os requisitos.
 
 ![Desafio](images/tela-01.png?raw=true "Desafio")
 
-## Pré requisitos
+O app deve iniciar na tela de login e após realizado a autenticação o usuário deve acessar a tela de Dashboard onde serão apresentado os gráficos. Nela o usuário deve ter a ação de criar novos componentes gráficos, editar e remover.
+
+## Requisitos
 * [ ] React Native
-* [ ] Ícones em svg
+* [ ] Utilizar Material Design Guidelines
 * [ ] Documentar como rodamos o projeto no README.MD
-* [ ] Gráficos
 
 ## Dicas
-- Expo
-- Highcharts
+- [Highcharts](https://github.com/TradingPal/react-native-highcharts)
 - AWS Amplify (Cognito AWS)
-- react-navigation
 
 ## Diferenciais
 - Criar issues e resolvê-las a partir de pull requests
 - Documentação no código
 - Arquivos pequenos com poucas responsabilidades
-- Redux
-- Usabilidade e feedback para o usuário no carregamento da consulta
+- Redux (Se houver possibilidade de uso)
+- Usabilidade e feedback para o usuário no carregamento da consulta (Progress bar)
 - Seguir algum Javascript Style Guide
 
 ## Pronto para começar o desafio?
